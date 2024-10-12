@@ -3,6 +3,8 @@
 
 This project is a simple Bash script designed to archive log files from a specified directory. The script compresses the logs into a `.tar.gz` file and stores it in a dedicated archive directory. It also logs the archiving process, including the date and time of the operation.
 
+Project inspired from https://roadmap.sh/projects/log-archive-tool
+
 ## Features
 - Accepts a log directory as input.
 - Compresses the log files into a `.tar.gz` archive.
@@ -16,4 +18,3 @@ This project is a simple Bash script designed to archive log files from a specif
    chmod +x logarchivetool.sh
    ./logarchivetool.sh <log-directory>
    ```
-
